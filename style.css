@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+header {
+  width: 100%;
+  height: 50px;
+  background-color: #ff9a4b;
+}
+main {
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+.main-box {
+  display: flex;
+  justify-content: center;
+}
+.box {
+  width: 300px;
+  height: 300px;
+  background-color: #eee;
+  padding: 10px;
+  position: relative;
+  margin-right: 30px;
+}
+.box:last-child {
+  margin-right: 0;
+}
+.step {
+  background-color: #ff9a4b;
+  width: 45px;
+  line-height: 30px;
+  color: #fff;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.box-image1 {
+  background-image: url(img/flow01.png);
+  width: 280px;
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+.box-image2 {
+  background-image: url(img/flow02.png);
+  width: 280px;
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+.box-image3 {
+  background-image: url(img/flow03.png);
+  width: 280px;
+  height: 150px;
+  background-size: cover;
+  background-position: bottom;
+}
+
+.title {
+  font-weight: normal;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+.message {
+  font-size: 13px;
+}
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #aaa;
+}
+
+
+@media screen and (max-width:768px) {
+  main {
+      width: 100%;
+  }
+  .main-box {
+    display: block;
+    width: 100%;
+  }
+  .box {
+      width: 90%;
+      margin: 0 auto;
+      margin-bottom: 20px;
+  }
+  .box-image1,.box-image2,.box-image3 {
+      width: 100%;
+      height: 150px;
+      background-position: center;
+      }
+  .title {
+    width: 100%;
+    font-size: 25px;
+  }
+  .message {
+    width: 100%;
+    font-size: 17px;
+  }
+  .box:last-child {
+    margin-right: 37px;
+  }
+}
