@@ -41,6 +41,7 @@ main {
   top: 0;
   left: 0;
 }
+
 .box-image1 {
   background-image: url(img/flow01.png);
   width: 280px;
@@ -48,6 +49,7 @@ main {
   background-size: cover;
   background-position: bottom;
 }
+
 .box-image2 {
   background-image: url(img/flow02.png);
   width: 280px;
